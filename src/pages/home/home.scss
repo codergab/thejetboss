@@ -1,3 +1,74 @@
-page-home {
+.ios, .md {
+    page-home {
+        .overlay {
+            height: 100%;
+            width: 100vw;
+            background: #000;
+        }
+        .card-page {
+            background: #fff;
+            ion-card {
+                position: relative;
+                margin: 0 !important;
+                width: 100%;
+                border-radius: 0;
+            }
+
+            img {
+                max-width: 100%;
+                object-fit: cover;
+                min-height: 100%;
+            }
+
+            .list-images {
+                max-width: 100%;
+                width: 100%;
+                margin: auto;
+            }
+
+            .list-images::after {
+                display:block;
+                position: relative;
+                background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0, #000000 100%);
+                margin-top: -150px;
+                height: 150px;
+                width: 100%;
+                content: '';
+                opacity: .8;
+            }
+
+            .card-title {
+                position: absolute;
+                bottom: 16%;
+                font-size: 1.5em;
+                width: 100%;
+                font-weight: bold;
+                color: #fff;
+                padding: 15px;
+            }
+
+            .card-subtitle {
+                font-size: 1em;
+                position: absolute;
+                bottom: 4%;
+                width: 100%;
+                color: #fff;
+                padding: 15px;
+            }
+
+            button {
+                position: absolute;
+                z-index: 5;
+                bottom: 10%;
+                right: 5%;
+            }
+
+        }
+        
+    }
+
+    
 
 }
+
+

@@ -1,0 +1,43 @@
+page-details {
+	.whiter {
+		color: color($colors, whiter);
+	}
+	.style-details {
+		height: 100%;
+		width: 100vw;
+		// background: #000;
+	}
+	
+	.card-page {
+		position: relative;
+		img {
+			width: 100%;
+			margin: 0 !important;
+		}
+		.img-showcase {
+			max-width: 100%;
+	        width: 100%;
+	        margin: auto;
+	    }
+	    .img-showcase::after {
+	        display:block;
+	        position: relative;
+	        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0, #000000 100%);
+	        margin-top: -150px;
+	        height: 150px;
+	        width: 100%;
+	        content: '';
+	        opacity: .8;
+	    }
+
+	    .card-subtitle {
+	    	padding: 25px;
+	    	bottom: 60%;
+	    	color: #fff;
+	    	font-size: 1.5em;
+	    	position: absolute;
+	    }
+
+	}
+
+}

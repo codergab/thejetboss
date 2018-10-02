@@ -1,0 +1,31 @@
+page-fleets {
+    .toolbar-md {
+        min-height: 60px;
+    }
+    ion-content , .content-md , .content-ios{
+        // background-image: url(../../assets/imgs/bgnew.png);
+        // background-size: cover;
+        // background-position: center;
+        height: 100%;
+        width: 100%;
+        // background-repeat: no-repeat;
+        padding: 0;
+        background-color: color($colors, match);
+    }
+
+    .card {
+        border-radius: 0;
+    }
+    .card-content.bright {
+        background-color: color($colors, yello);
+    }
+
+    .card-content.bright .card-title , .card-content.bright p{
+        color: #fff;
+    }
+
+    ion-scroll {
+        white-space: nowrap;
+        height: 100px;
+    }
+}

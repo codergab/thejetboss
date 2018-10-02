@@ -1,14 +1,42 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="card-page" no-padding>
+  <div class="overlay" no-padding>
+    <div text-center>    
+      <img src="assets/imgs/thejetboss-white.png" width="150" style="padding: 3vh 0 3vh 0">
+    </div>
+    <!-- Ion card -->
+    <ion-card (click)="hire('Hire for business','assets/imgs/copta1.jpg','Travel in Style with our affordable jets')">
+      <div class="list-images">
+        <img src="assets/imgs/copta1.jpg">
+      </div>
+      <div class="card-title">
+        Hire for business
+      </div>
+      <div class="card-subtitle">
+        Travel in Style with our affordable jets
+      </div>
+    </ion-card>
+    <ion-card (click)="hire('Hire for Events','assets/imgs/copta2.jpg','Showcase what you have on that beautiful day!')">
+      <div class="list-images">
+        <img src="assets/imgs/copta2.jpg">
+      </div>
+      <div class="card-title">
+        Hire for Events
+      </div>
+      <div class="card-subtitle">
+        Showcase what you have on that beautiful day!
+      </div>
+    </ion-card>
+    <!-- <ion-card>
+      <div class="list-images">
+        <img src="/assets/imgs/business.jpeg">
+      </div>
+      <div class="card-title">
+        Hire for business
+      </div>
+      <div class="card-subtitle">
+        Take charge of your business with our 
+      </div>
+    </ion-card> -->
+  </div>
 </ion-content>
+

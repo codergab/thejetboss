@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar color="black">
+    <ion-title>Book a Jet</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <!-- <h2 style="margin: 2vh 0 2em 0; border-bottom: 3px solid #000; " text-center>Reach Us</h2> -->
+
+  <div class="carddy">
+    
+      <ion-grid>
+        <ion-row (click)="openChat()">
+          <ion-col col-4>
+            <img src="assets/imgs/phone-chat.svg" height="60">
+          </ion-col>
+          <ion-col col-8>
+            <h1 padding-vertical>Chat With Us</h1>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>
+    
+    
+      <ion-grid>
+        <ion-row (click)="openDialer()">
+          <ion-col col-4>
+            <img src="assets/imgs/call-center-operator.svg" height="60">
+          </ion-col>
+          <ion-col col-8>
+            <h1 padding-vertical>Call Us</h1>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>
+    
+    
+      <ion-grid>
+        <ion-row (click)="openMail()">
+          <ion-col col-4>
+            <img src="assets/imgs/email.svg" height="60">
+          </ion-col>
+          <ion-col col-8>
+            <h1 padding-vertical>Mail Us</h1>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>
+    
+  </div>
+  
+  
+</ion-content>

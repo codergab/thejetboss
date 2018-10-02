@@ -1,0 +1,26 @@
+<ion-header>
+
+	<ion-navbar color="black">
+		<ion-title>{{ pageTitle }}</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="card-page style-details">
+	<div class="img-showcase">
+		<img [src]='imgSrc'>
+	</div>
+	<div class="card-subtitle">
+		{{ description }}
+	</div>
+
+	<div class="" text-center style="margin-top:2em">
+		<h2>Ready to hire a jet?</h2>
+		<h4>Starting From</h4>
+		<h1 style="color: #f53d3d">$7,500/hr</h1>
+		<br>
+		<button ion-button color="dark" round (click)="reachUs()">Book a Jet Now</button>
+	</div>
+
+</ion-content>
